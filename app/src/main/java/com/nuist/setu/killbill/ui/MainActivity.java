@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityResultLauncher<String> requestPostNotificationPermission;
 
-    // --- 防止“每次 onResume 都提醒”的简单控制 ---
+    // 防止每次 onResume 都提醒
     private static final String PREFS = "main_prefs";
     private static final String KEY_NL_PROMPTED = "notification_listener_prompted_once";
 
@@ -56,11 +56,10 @@ public class MainActivity extends AppCompatActivity {
                     if (!granted) {
                         handlePostNotificationDenied();
                     }
-                    // granted == true: 不需要额外动作
                 }
         );
 
-        // 方案B：启动页主动申请（Android 13+）
+        // 启动页主动申请（Android 13+）
         maybeRequestPostNotifications();
 
         binding.bottomNav.setOnItemSelectedListener(item -> {
@@ -83,15 +82,13 @@ public class MainActivity extends AppCompatActivity {
             switchTo(dailyFragment);
         }
 
-        // 首次进入时，检查一次通知监听权限（不在每次 onResume 疯狂提示）
+        // 首次进入时，检查一次通知监听权限
         maybePromptNotificationAccessOnce();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        // 如果你希望“用户从设置返回后立刻感知变化”，可以仅在未授权时提示一次即可。
-        // 这里不再每次都提示，避免骚扰。
     }
 
     private void switchTo(@NonNull androidx.fragment.app.Fragment fragment) {

@@ -1,0 +1,4 @@
+com.nuist.setu.killbill.test.app-androidTest-0 E:\development\AndroidStudioProjects\KillBillJava\app\build\generated\res\resValues\androidTest\debug
+com.nuist.setu.killbill.test.app-mergeDebugAndroidTestResources-1 E:\development\AndroidStudioProjects\KillBillJava\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.nuist.setu.killbill.test.app-mergeDebugAndroidTestResources-2 E:\development\AndroidStudioProjects\KillBillJava\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.nuist.setu.killbill.test.app-merged_res-3 E:\development\AndroidStudioProjects\KillBillJava\app\build\intermediates\merged_res\debugAndroidTest

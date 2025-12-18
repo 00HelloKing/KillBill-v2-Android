@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 array bill_categories
+color csv_color
 color md_theme_dark_background
 color md_theme_dark_onBackground
 color md_theme_dark_onPrimary
@@ -25,6 +26,7 @@ color md_theme_light_primaryContainer
 color md_theme_light_secondary
 color md_theme_light_secondaryContainer
 color md_theme_light_surface
+color popup_menu_text
 dimen padding_normal
 dimen padding_small
 drawable bg_clickable

@@ -129,13 +129,12 @@ public class PaymentNotificationListenerService extends NotificationListenerServ
                         this,
                         android.Manifest.permission.POST_NOTIFICATIONS
                 ) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
-                    // 没有通知权限：这里直接 return（或记录日志）
+                    // no permission
                     return;
                 }
             }
             nm.notify(requestCode, builder.build());
         } catch (SecurityException e) {
-            // 极端情况下仍可能抛异常（OEM/系统策略），兜底避免崩溃
             e.printStackTrace();
         }
 
@@ -172,7 +171,7 @@ public class PaymentNotificationListenerService extends NotificationListenerServ
         String s = content.replace("\u00A0", " ").trim();
 
         // Must contain at least one payment keyword
-        // (This avoids matching order IDs etc.)
+        // This avoids matching order IDs etc.
         boolean hasKeyword = containsAny(s, "支付", "付款", "消费", "扣款", "支出", "已付款", "支付成功");
         if (!hasKeyword) {
             return null;

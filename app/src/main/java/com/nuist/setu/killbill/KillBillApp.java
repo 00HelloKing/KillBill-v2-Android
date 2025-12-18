@@ -11,7 +11,6 @@ public class KillBillApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        // Intentionally empty.
-        // (We create NotificationChannels inside the NotificationListenerService)
+        // We create NotificationChannels inside the NotificationListenerService
     }
 }

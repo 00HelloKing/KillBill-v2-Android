@@ -30,4 +30,8 @@
 
     <color name="md_theme_dark_surface">#111418</color>
     <color name="md_theme_dark_onSurface">#E2E2E6</color>
+
+    <color name="csv_color">#FF5722</color>
+    <color name="popup_menu_text">#FF000000</color>
+
 </resources>
