@@ -72,7 +72,7 @@ public class StatsFragment extends Fragment {
         binding.pieChart.getDescription().setEnabled(false);
         binding.pieChart.setUsePercentValues(true);
         binding.pieChart.setDrawEntryLabels(false);
-        binding.pieChart.setCenterText("本月支出");
+        binding.pieChart.setCenterText("Expenses for this month");
         binding.pieChart.setCenterTextSize(14f);
         binding.pieChart.setHoleRadius(55f);
         binding.pieChart.setTransparentCircleRadius(60f);
@@ -82,7 +82,7 @@ public class StatsFragment extends Fragment {
     private void updatePieChart(List<CategoryTotal> list) {
         if (list == null || list.isEmpty()) {
             binding.pieChart.clear();
-            binding.pieChart.setCenterText("暂无数据");
+            binding.pieChart.setCenterText("No Data");
             binding.pieChart.invalidate();
             return;
         }
@@ -105,7 +105,7 @@ public class StatsFragment extends Fragment {
 
         PieData data = new PieData(dataSet);
         binding.pieChart.setData(data);
-        binding.pieChart.setCenterText("本月支出\n" + MoneyUtils.formatCny(sum));
+        binding.pieChart.setCenterText("Expenses for this month\n" + MoneyUtils.formatCny(sum));
         binding.pieChart.invalidate();
     }
 

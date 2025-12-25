@@ -46,7 +46,7 @@ public class AddEditBillActivity extends AppCompatActivity {
     public static final String EXTRA_PREFILL_AMOUNT = "extra_prefill_amount";
     public static final String EXTRA_PREFILL_NOTE = "extra_prefill_note";
     public static final String EXTRA_SOURCE = "extra_source";         // "AUTO" / "MANUAL"
-    public static final String EXTRA_PAYMENT_APP = "extra_payment_app"; // "支付宝"/"微信"/null
+    public static final String EXTRA_PAYMENT_APP = "extra_payment_app"; // "Alipay"/"Wechat"/null
 
     private ActivityAddEditBillBinding binding;
 
@@ -238,14 +238,14 @@ public class AddEditBillActivity extends AppCompatActivity {
             takePictureLauncher.launch(pendingPhotoUri);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(this, "无法启动相机", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Unable to start camera", Toast.LENGTH_SHORT).show();
         }
     }
 
     private void onSaveClicked() {
         String amountText = binding.etAmount.getText() == null ? "" : binding.etAmount.getText().toString().trim();
         if (TextUtils.isEmpty(amountText)) {
-            binding.tilAmount.setError("请输入金额");
+            binding.tilAmount.setError("Please enter the amount");
             return;
         }
         binding.tilAmount.setError(null);
@@ -254,11 +254,11 @@ public class AddEditBillActivity extends AppCompatActivity {
         try {
             amount = Double.parseDouble(amountText);
         } catch (Exception e) {
-            binding.tilAmount.setError("金额格式不正确");
+            binding.tilAmount.setError("Incorrect format");
             return;
         }
         if (amount <= 0) {
-            binding.tilAmount.setError("金额必须大于 0");
+            binding.tilAmount.setError("Must be greater than 0");
             return;
         }
 
@@ -304,8 +304,8 @@ public class AddEditBillActivity extends AppCompatActivity {
         }
 
         new AlertDialog.Builder(this)
-                .setTitle("删除账单？")
-                .setMessage("删除后不可恢复")
+                .setTitle("Delete?")
+                .setMessage("Can't be restored after deletion")
                 .setPositiveButton(R.string.delete, (d, w) -> {
                     viewModel.delete(editingBill);
                     finish();

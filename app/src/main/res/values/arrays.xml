@@ -1,10 +1,10 @@
 <resources>
     <string-array name="bill_categories">
-        <item>餐饮</item>
-        <item>交通</item>
-        <item>购物</item>
-        <item>娱乐</item>
-        <item>生活缴费</item>
-        <item>其它</item>
+        <item>catering</item>
+        <item>traffic</item>
+        <item>shopping</item>
+        <item>entertainment</item>
+        <item>utility bill</item>
+        <item>other</item>
     </string-array>
 </resources>

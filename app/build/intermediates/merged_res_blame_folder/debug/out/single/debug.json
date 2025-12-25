@@ -1,27 +1,19 @@
 [
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_add.xml.flat",
+        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_add.xml"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_add.xml.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_add.xml"
-    },
-    {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_camera.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_camera.xml"
     },
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.png.flat",
+        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\layout_activity_main.xml.flat",
@@ -36,20 +28,16 @@
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\layout\\fragment_daily.xml"
     },
     {
+        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_launcher_foreground.png.flat",
+        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\layout_item_bill.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\layout\\item_bill.xml"
     },
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\menu_menu_bottom_nav.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\menu\\menu_bottom_nav.xml"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
@@ -64,20 +52,16 @@
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\layout\\item_category_total.xml"
     },
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.nuist.setu.killbill.app-merged_res-43:/layout_activity_main.xml.flat",
-        "source": "com.nuist.setu.killbill.app-main-45:/layout/activity_main.xml"
+        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_launcher_background.png.flat",
+        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.nuist.setu.killbill.app-merged_res-43:/menu_menu_main.xml.flat",
-        "source": "com.nuist.setu.killbill.app-main-45:/menu/menu_main.xml"
+        "merged": "com.nuist.setu.killbill.app-merged_res-43:/drawable_ic_launcher_foreground.png.flat",
+        "source": "com.nuist.setu.killbill.app-main-45:/drawable/ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_nav_stats.xml.flat",
@@ -86,18 +70,6 @@
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\xml_backup_rules.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\xml_file_paths.xml.flat",
@@ -112,12 +84,12 @@
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\layout\\fragment_all_bills.xml"
     },
     {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_receipt.xml.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_receipt.xml"
-    },
-    {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_receipt.xml.flat",
+        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\drawable\\ic_receipt.xml"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_nav_day.xml.flat",
@@ -142,10 +114,6 @@
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\layout_fragment_stats.xml.flat",
         "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\layout\\fragment_stats.xml"
-    },
-    {
-        "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\development\\Android\\gradle\\daemon\\8.2\\com.nuist.setu.killbill.app-merged_res-43:\\drawable_ic_back.xml.flat",

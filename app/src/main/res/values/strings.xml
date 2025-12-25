@@ -2,42 +2,45 @@
     <string name="app_name">KillBill</string>
 
     <!-- Bottom navigation -->
-    <string name="nav_daily">每日</string>
-    <string name="nav_stats">统计</string>
-    <string name="nav_all">全部</string>
+    <string name="nav_daily">Daily</string>
+    <string name="nav_stats">Statistic</string>
+    <string name="nav_all">All</string>
 
     <!-- Common -->
-    <string name="add_bill">添加账单</string>
-    <string name="edit_bill">编辑账单</string>
-    <string name="save">保存</string>
-    <string name="delete">删除</string>
-    <string name="cancel">取消</string>
+    <string name="add_bill">Add</string>
+    <string name="edit_bill">Edit</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
 
     <!-- Fields -->
-    <string name="amount">金额</string>
-    <string name="category">分类</string>
-    <string name="note">备注</string>
-    <string name="date_time">日期/时间</string>
-    <string name="receipt_photo">小票照片</string>
-    <string name="take_photo">拍照</string>
-    <string name="change_date">选择日期</string>
-    <string name="change_month">选择月份</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="note">Note</string>
+    <string name="date_time">Date/Time</string>
+    <string name="receipt_photo">Bill Picture</string>
+    <string name="take_photo">Photo</string>
+    <string name="change_date">Choose date</string>
+    <string name="change_month">Choose month</string>
 
     <!-- Permission / settings -->
-    <string name="notification_permission_title">需要通知权限</string>
-    <string name="notification_permission_msg">为了在你支付后自动识别金额并快速记账，请在系统设置中为 KillBill 开启“通知使用权”。</string>
-    <string name="open_settings">去设置</string>
+    <string name="notification_permission_title">Notification permission required</string>
+    <string name="notification_permission_msg">In order to automatically identify the amount and quickly record it
+        after you make the payment,please enable
+        "Notification Usage Rights" for KillBill in the system settings.</string>
+    <string name="open_settings">Go to set</string>
 
-    <string name="camera_permission_title">需要相机权限</string>
-    <string name="camera_permission_msg">为了拍摄小票照片，请允许相机权限。</string>
+    <string name="camera_permission_title">Camera permission required</string>
+    <string name="camera_permission_msg">Please grant camera permission for taking receipt photos.</string>
 
     <!-- Auto capture notification -->
-    <string name="channel_auto_capture">自动识别记账</string>
-    <string name="channel_auto_capture_desc">检测到支付通知后，提醒你一键记账</string>
+    <string name="channel_auto_capture">Auto-recognition accounting</string>
+    <string name="channel_auto_capture_desc">After detecting the payment notification,
+        remind you to do one click bookkeeping</string>
 
-    <string name="detected_payment_title">检测到支付</string>
-    <string name="tap_to_record">点击一键记账</string>
+    <string name="detected_payment_title">Payment detected</string>
+    <string name="tap_to_record">Tap to record</string>
 
     <!-- Export -->
-    <string name="export_csv">导出 CSV</string>
+    <string name="export_csv">Export CSV</string>
 </resources>

@@ -109,14 +109,14 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        // 如果用户之前拒绝过，最好先给解释（rationale）再弹系统权限框
+        // 如果用户之前拒绝过，给解释（rationale）再弹系统权限框
         if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.POST_NOTIFICATIONS)) {
             new AlertDialog.Builder(this)
-                    .setTitle("通知权限")
-                    .setMessage("开启通知权限后，我们才能在自动记账/提醒时向你发送通知。")
-                    .setPositiveButton("去授权", (d, w) ->
+                    .setTitle("Notification permission")
+                    .setMessage("Enabled notifications let us send alerts during auto-accounting/reminders.")
+                    .setPositiveButton("Go to authorize", (d, w) ->
                             requestPostNotificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS))
-                    .setNegativeButton("暂不", null)
+                    .setNegativeButton("Not yet", null)
                     .show();
         } else {
             requestPostNotificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS);
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * 处理 POST_NOTIFICATIONS 被拒绝的情况：
      * - 普通拒绝：提示可以在设置里开启
-     * - 永久拒绝（不再询问）：引导跳应用设置页
+     * - 拒绝并不再询问：引导跳应用设置页
      */
     private void handlePostNotificationDenied() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) return;
@@ -135,13 +135,15 @@ public class MainActivity extends AppCompatActivity {
                 this, Manifest.permission.POST_NOTIFICATIONS);
 
         if (!showRationale) {
-            // 很可能是“拒绝并不再询问”，或者策略限制等 -> 直接引导设置
-            Snackbar.make(binding.getRoot(), "通知权限被关闭，可在系统设置中开启", Snackbar.LENGTH_LONG)
-                    .setAction("去设置", v -> openAppSettings())
+            // “拒绝并不再询问”，或策略限制 -> 直接引导设置
+            Snackbar.make(binding.getRoot(), "Notification permission disabled," +
+                            "please enabled in system settings.", Snackbar.LENGTH_LONG)
+                    .setAction("Go to set", v -> openAppSettings())
                     .show();
         } else {
             // 普通拒绝
-            Snackbar.make(binding.getRoot(), "未授予通知权限，部分通知可能无法显示", Snackbar.LENGTH_SHORT)
+            Snackbar.make(binding.getRoot(), "Notification permission denied, " +
+                            "may affect display.", Snackbar.LENGTH_SHORT)
                     .show();
         }
     }
@@ -203,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
     private void exportCsv() {
         BillRepository.getInstance(this).getAllBillsOnce(bills -> {
             if (bills == null || bills.isEmpty()) {
-                Snackbar.make(binding.getRoot(), "暂无数据可导出", Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(binding.getRoot(), "No data for exporting", Snackbar.LENGTH_SHORT).show();
                 return;
             }
             CsvExporter.exportAndShare(this, bills);

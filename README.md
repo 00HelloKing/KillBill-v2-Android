@@ -1,4 +1,4 @@
-# KillBill (Java Improved)
+# KillBill v2.0.0
 
 This is an improved Java version of the original Kotlin KillBill ledger app.
 
@@ -12,12 +12,6 @@ This is an improved Java version of the original Kotlin KillBill ledger app.
 - ✅ Swipe-to-delete + Undo
 - ✅ Monthly pie chart statistics (MPAndroidChart)
 - ✅ CSV export + share
-
-## How to run
-Open the project root folder in Android Studio.
-
-> Note: the project does not ship `gradle-wrapper.jar` in this sandbox export.  
-> Android Studio will handle Gradle sync, or you can regenerate the wrapper.
 
 ## Permissions
 - Camera: for receipt photos
