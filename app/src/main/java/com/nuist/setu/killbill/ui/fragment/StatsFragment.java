@@ -17,6 +17,7 @@ import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.utils.ColorTemplate;
+import com.google.android.material.color.MaterialColors;
 import com.nuist.setu.killbill.data.CategoryTotal;
 import com.nuist.setu.killbill.databinding.FragmentStatsBinding;
 import com.nuist.setu.killbill.ui.adapter.CategoryTotalAdapter;
@@ -77,6 +78,12 @@ public class StatsFragment extends Fragment {
         binding.pieChart.setHoleRadius(55f);
         binding.pieChart.setTransparentCircleRadius(60f);
         binding.pieChart.getLegend().setEnabled(true);
+
+        // 让图例文字跟随主题
+        int textColor = MaterialColors.getColor(binding.pieChart,
+                com.google.android.material.R.attr.colorOnBackground);
+        binding.pieChart.getLegend().setTextColor(textColor);
+
     }
 
     private void updatePieChart(List<CategoryTotal> list) {

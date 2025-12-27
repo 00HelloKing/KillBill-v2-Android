@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityResultLauncher<String> requestPostNotificationPermission;
 
-    // 防止每次 onResume 都提醒
+    // 防止每次onResume都提醒
     private static final String PREFS = "main_prefs";
     private static final String KEY_NL_PROMPTED = "notification_listener_prompted_once";
 
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        // 如果用户之前拒绝过，给解释（rationale）再弹系统权限框
+        // 如果用户之前拒绝过，给解释再弹系统权限框
         if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.POST_NOTIFICATIONS)) {
             new AlertDialog.Builder(this)
                     .setTitle("Notification permission")

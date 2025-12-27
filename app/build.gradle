@@ -45,7 +45,7 @@ dependencies {
     implementation 'androidx.activity:activity:1.9.3'
     implementation 'androidx.fragment:fragment:1.8.4'
 
-    // Lifecycle (ViewModel + LiveData)
+    // Lifecycle
     implementation 'androidx.lifecycle:lifecycle-viewmodel:2.8.6'
     implementation 'androidx.lifecycle:lifecycle-livedata:2.8.6'
     implementation 'androidx.lifecycle:lifecycle-runtime:2.8.6'
@@ -55,7 +55,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-android:2.10.0'
     annotationProcessor 'androidx.room:room-compiler:2.6.1'
 
-    // Preferences (optional, for settings screen)
+    // Preferences
     implementation 'androidx.preference:preference:1.2.1'
 
     // Charts

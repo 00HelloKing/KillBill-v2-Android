@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="bill_categories">
+        <item>catering</item>
+        <item>traffic</item>
+        <item>shopping</item>
+        <item>entertainment</item>
+        <item>utility bill</item>
+        <item>other</item>
+    </string-array>
+    <color name="csv_color">#FF5722</color>
+    <color name="md_theme_dark_background">#111418</color>
+    <color name="md_theme_dark_onBackground">#E2E2E6</color>
+    <color name="md_theme_dark_onPrimary">#003258</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D1E4FF</color>
+    <color name="md_theme_dark_onSecondary">#253140</color>
+    <color name="md_theme_dark_onSecondaryContainer">#D7E3F7</color>
+    <color name="md_theme_dark_onSurface">#E2E2E6</color>
+    <color name="md_theme_dark_primary">#9CCAFF</color>
+    <color name="md_theme_dark_primaryContainer">#00497D</color>
+    <color name="md_theme_dark_secondary">#BBC7DB</color>
+    <color name="md_theme_dark_secondaryContainer">#3B4858</color>
+    <color name="md_theme_dark_surface">#111418</color>
+    <color name="md_theme_light_background">#FCFCFF</color>
+    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001D36</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_onSecondaryContainer">#101C2B</color>
+    <color name="md_theme_light_onSurface">#1A1C1E</color>
+    <color name="md_theme_light_primary">#FF5722</color>
+    <color name="md_theme_light_primaryContainer">#D1E4FF</color>
+    <color name="md_theme_light_secondary">#535F70</color>
+    <color name="md_theme_light_secondaryContainer">#D7E3F7</color>
+    <color name="md_theme_light_surface">#FCFCFF</color>
+    <color name="popup_menu_text">#FF000000</color>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <string name="add_bill">Add</string>
+    <string name="amount">Amount</string>
+    <string name="app_name">KillBill</string>
+    <string name="camera_permission_msg">Please grant camera permission for taking receipt photos.</string>
+    <string name="camera_permission_title">Camera permission required</string>
+    <string name="cancel">Cancel</string>
+    <string name="category">Category</string>
+    <string name="change_date">Choose date</string>
+    <string name="change_month">Choose month</string>
+    <string name="channel_auto_capture">Auto-recognition accounting</string>
+    <string name="channel_auto_capture_desc">After detecting the payment notification,
+        remind you to do one click bookkeeping</string>
+    <string name="date_time">Date/Time</string>
+    <string name="delete">Delete</string>
+    <string name="detected_payment_title">Payment detected</string>
+    <string name="edit_bill">Edit</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="nav_all">All</string>
+    <string name="nav_daily">Daily</string>
+    <string name="nav_stats">Statistic</string>
+    <string name="note">Note</string>
+    <string name="notification_permission_msg">In order to automatically identify the amount and quickly record it
+        after you make the payment,please enable
+        "Notification Usage Rights" for KillBill in the system settings.</string>
+    <string name="notification_permission_title">Notification permission required</string>
+    <string name="open_settings">Go to set</string>
+    <string name="receipt_photo">Bill Picture</string>
+    <string name="save">Save</string>
+    <string name="take_photo">Photo</string>
+    <string name="tap_to_record">Tap to record</string>
+    <style name="Theme.KillBill" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimaryVariant">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorSecondaryVariant">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:textColorPrimary">@color/popup_menu_text</item>
+    </style>
+</resources>

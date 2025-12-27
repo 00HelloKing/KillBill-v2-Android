@@ -33,7 +33,6 @@ import java.util.Locale;
 
 /**
  * Add / Edit Bill screen.
- *
  * Improvements:
  * - Uses Room DB via ViewModel/Repository
  * - Supports camera capture for receipt photo (stored in app-specific external files)

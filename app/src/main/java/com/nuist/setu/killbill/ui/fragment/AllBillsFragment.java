@@ -104,8 +104,8 @@ public class AllBillsFragment extends Fragment {
                 lastDeleted = bill;
                 viewModel.delete(bill);
 
-                Snackbar.make(binding.getRoot(), "已删除", Snackbar.LENGTH_LONG)
-                        .setAction("撤销", v -> {
+                Snackbar.make(binding.getRoot(), "Deleted", Snackbar.LENGTH_LONG)
+                        .setAction("Cancel", v -> {
                             if (lastDeleted != null) {
                                 viewModel.insert(lastDeleted);
                                 lastDeleted = null;

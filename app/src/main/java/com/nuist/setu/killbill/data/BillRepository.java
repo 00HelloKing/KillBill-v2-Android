@@ -12,7 +12,6 @@ import java.util.concurrent.Executors;
 
 /**
  * Repository (single source of truth for data operations).
- *
  * - UI observes LiveData from Room directly.
  * - Writes run on a background thread (ExecutorService).
  */
