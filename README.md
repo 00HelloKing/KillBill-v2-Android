@@ -1,6 +1,9 @@
-# KillBill v2.0.0
+# KillBill v2.0.0 --- Living Expenses Accounting APP
+This is an improved Java version of the original Kotlin KillBill ledger app.(https://github.com/JerryHuang0424/killbill)
 
-This is an improved Java version of the original Kotlin KillBill ledger app.
+Author: Kaifeng JIN ([00HelloKing](https://github.com/00HelloKing))
+
+Institution: NUIST & SETU
 
 ## Key Improvements
 - ✅ **Converted to Java**
